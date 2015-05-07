@@ -1,0 +1,10 @@
+language: python
+python:
+ - "2.7"
+
+install: true
+
+script: true
+
+build_image: shippable/minv2
+commit_container: vidyar/dock
